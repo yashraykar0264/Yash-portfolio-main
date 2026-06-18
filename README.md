@@ -1,5 +1,11 @@
 <div align="center">
 
+
+![Node.js](https://img.shields.io/badge/Node.js-22.x-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-5.x-000000?style=for-the-badge&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![EJS](https://img.shields.io/badge/EJS-Templates-B4CA65?style=for-the-badge)
+
 # Yash Raykar Portfolio
 
 ### Computer Engineering Student | Aspiring Software Developer | Java DSA Learner
