@@ -6,11 +6,13 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![EJS](https://img.shields.io/badge/EJS-Templates-B4CA65?style=for-the-badge)
 
+<div align="center">
+
 # Yash Raykar Portfolio
 
 ### Computer Engineering Student | Aspiring Software Developer | Java DSA Learner
 
-[Live Portfolio](YOUR_PORTFOLIO_LINK)
+🚀 **Live Portfolio:** [Visit Here](https://yash-raykar-portfolio.netlify.app/)
 
 </div>
 
@@ -18,105 +20,127 @@
 
 ## About Me
 
-Hello! I'm Yash Raykar, a Third Year Computer Engineering student from Pune.
+Hello, I'm **Yash Raykar**, a Third Year Computer Engineering student from Pune, Maharashtra.
 
-I am passionate about Software Development, Web Development, Data Structures & Algorithms, and problem solving. Currently, I am focusing on strengthening my programming fundamentals, building projects, and preparing for software engineering opportunities.
+I am passionate about **Software Development, Web Development, Data Structures & Algorithms, and Problem Solving**.
+Currently, I am focused on improving my programming skills, building real-world projects, and preparing for software engineering opportunities.
 
-This portfolio showcases my projects, skills, education, certifications, and achievements.
+This portfolio highlights my journey, technical skills, projects, education, certifications, and achievements.
 
 ---
 
 ## Tech Stack
 
-### Languages
-- Java
-- JavaScript
-- SQL
-- HTML
-- CSS
+### Programming Languages
 
-### Frontend
-- React.js
-- Bootstrap
-- Responsive Design
+* Java
+* JavaScript
+* SQL
+* HTML5
+* CSS3
 
-### Backend
-- Node.js
-- Express.js
+### Frontend Development
+
+* React.js
+* Bootstrap
+* Responsive Design
+* JSON-based Dynamic Rendering
+
+### Backend Development
+
+* Node.js
+* Express.js
 
 ### Database
-- MongoDB
-- MySQL
 
-### Tools
-- Git
-- GitHub
-- VS Code
-- Postman
+* MongoDB
+* MySQL
+
+### Tools & Platforms
+
+* Git
+* GitHub
+* VS Code
+* Postman
+* Netlify
 
 ---
 
 ## Featured Projects
 
-### VIP Engineer
+## 1. VIP Engineer
 
-A Notes Sharing and Selling Platform built for engineering students.
+A Full Stack Notes Sharing & Selling Platform for Engineering Students.
 
-#### Features
-- User Authentication
-- Role Based Access (Admin/User)
-- Notes Upload & Management
-- PDF Download Access
-- Payment Request System
-- Responsive UI
+### Key Features
 
-#### Tech Stack
-- React.js
-- Node.js
-- Express.js
-- MongoDB
-- JWT Authentication
+* User Authentication (JWT)
+* Admin & User Role Management
+* Notes Upload & Management
+* Premium Notes Purchase System
+* Payment Screenshot Verification
+* PDF Download Access
+* Responsive User Interface
+
+### Tech Used
+
+* React.js
+* Node.js
+* Express.js
+* MongoDB
+* JWT Authentication
+* Multer
 
 ---
 
-### Portfolio Website
+## 2. Personal Portfolio Website
 
-Personal portfolio website showcasing skills, projects, education, and achievements.
+A responsive and dynamic personal portfolio website designed to showcase:
 
-#### Tech Stack
-- HTML
-- CSS
-- JavaScript
+* Skills
+* Projects
+* Resume
+* Certifications
+* Contact Information
+* Social Links
+
+### Tech Used
+
+* HTML
+* CSS
+* JavaScript
+* JSON
 
 ---
 
 ## Education
 
 ### Bachelor of Engineering (Computer Engineering)
-Savitribai Phule Pune University
 
-Currently pursuing Third Year Engineering.
+**Savitribai Phule Pune University (SPPU)**
+Currently Pursuing Third Year Engineering
 
 ---
 
-## Skills
+## Technical Skills
 
-- Data Structures & Algorithms
-- Object Oriented Programming
-- DBMS
-- Operating Systems
-- Computer Networks
-- Web Development
-- Problem Solving
+* Data Structures & Algorithms
+* Object Oriented Programming (OOP)
+* DBMS
+* Operating Systems
+* Computer Networks
+* Web Development
+* Problem Solving
 
 ---
 
 ## Achievements
 
-- Built Full Stack Project: VIP Engineer
-- Solved DSA Problems using Java
-- Developed Multiple Web Development Projects
-- Learning MERN Stack Development
+* Developed Full Stack Project: **VIP Engineer**
+* Built Responsive Personal Portfolio Website
+* Solved Multiple DSA Problems using Java
+* Learning MERN Stack Development
+* Improving Core CS Fundamentals
 
 ---
 
@@ -126,9 +150,23 @@ Currently pursuing Third Year Engineering.
 portfolio/
 │
 ├── assets/
+│   ├── docs/
+│   ├── images/
+│
 ├── css/
 ├── data/
-├── docs/
 ├── js/
 ├── index.html
 └── README.md
+```
+
+---
+
+## Connect With Me
+
+* GitHub: https://github.com/yashraykar0264
+* LinkedIn: https://www.linkedin.com/in/yash-raykar-72901231b/
+
+---
+
+⭐ If you like this portfolio, feel free to star the repository.
