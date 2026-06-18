@@ -1,0 +1,775 @@
+{
+  "meta": {
+    "title": "Yash Raykar | MERN Stack Developer Portfolio",
+    "description": "Professional portfolio of Yash Raykar, B.E. Computer Engineering Student, Web Developer Intern, MERN stack developer, and C++ DSA learner."
+  },
+  "brand": {
+    "mark": "YR",
+    "name": "Yash Raykar"
+  },
+  "ui": {
+    "language": "en",
+    "aria": {
+      "brandHome": "Go to home",
+      "themeToggle": "Toggle theme",
+      "menuButton": "Open menu",
+      "backToTop": "Back to top",
+      "closeLightbox": "Close certificate preview",
+      "closeIntro": "Close introduction preview",
+      "mobileProfilePreview": "Student profile preview",
+      "typingLine": "Typing role animation",
+      "portfolioHighlights": "Portfolio highlights",
+      "quickStats": "Quick statistics",
+      "recruiterSnapshot": "Recruiter snapshot",
+      "academicProgressTable": "Academic progress table",
+      "resultLinks": "Ordered academic result links"
+    },
+    "tableHeaders": {
+      "academicProgress": ["Area", "Level", "Progress"]
+    },
+    "icons": {
+      "brandHome": "fa-solid fa-house",
+      "themeDark": "fa-solid fa-moon",
+      "themeLight": "fa-solid fa-sun",
+      "menu": "fa-solid fa-bars",
+      "backToTop": "fa-solid fa-arrow-up",
+      "close": "fa-solid fa-xmark",
+      "calendar": "fas fa-calendar",
+      "university": "fas fa-university",
+      "mapMarker": "fas fa-map-marker-alt",
+      "layerGroup": "fas fa-layer-group",
+      "bolt": "fas fa-bolt",
+      "checkCircle": "fa-solid fa-circle-check",
+      "idCard": "fas fa-id-card",
+      "database": "fas fa-database",
+      "filePdf": "fa-solid fa-file-pdf",
+      "copyright": "far fa-copyright",
+      "quote": "fas fa-quote-left",
+      "clock": "fas fa-clock",
+      "userTie": "fas fa-user-tie",
+      "play": "fa-solid fa-play",
+      "link": "fas fa-link",
+      "paperPlane": "fas fa-paper-plane",
+      "bookOpen": "fas fa-book-open"
+    },
+    "scripts": {
+      "main": "js/main.js",
+      "animations": "js/animations.js",
+      "components": "js/components.js"
+    },
+    "time": {
+      "locale": "en-IN",
+      "timeZone": "Asia/Kolkata"
+    },
+    "fallbacks": {
+      "loadError": "Portfolio data could not be loaded. Please refresh the page."
+    }
+  },
+  "navigation": [
+    { "id": "about", "label": "About", "icon": "fas fa-user" },
+    {
+      "id": "academics",
+      "label": "Academics",
+      "icon": "fas fa-graduation-cap"
+    },
+    
+    
+    { "id": "journey", "label": "Journey", "icon": "fas fa-people-group" },
+    { "id": "achievements", "label": "Achievements", "icon": "fas fa-trophy" },
+    { "id": "projects", "label": "Projects", "icon": "fas fa-laptop-code" },
+    { "id": "skills", "label": "Skills", "icon": "fas fa-code-branch" },
+    
+    
+    { "id": "contact", "label": "Contact", "icon": "fas fa-envelope" }
+  ],
+  "hero": {
+    "eyebrow": {
+      "icon": "fas fa-robot",
+      "text": "Computer Engineering  student"
+    },
+    "name": "Yash Raykar",
+    "typingText": "Frontend Intern Ready | MERN Developer | DSA Learner",
+    "lead": "Frontend-focused MERN developer building responsive interfaces, REST APIs, authentication flows, and database-driven systems. I am looking for a web development or frontend internship where I can contribute clean UI, reliable code, and fast learning.",
+    "profileImage": "assets/images/profile/yash-raykar-profile.png",
+    "profileImageAlt": "Yash Raykar profile photograph",
+    "badges": [
+      { "icon": "fa-solid fa-briefcase", "text": "Open to Work" },
+      { "icon": "fa-solid fa-location-dot", "text": "Pune, Maharashtra" },
+      { "icon": "fa-solid fa-code-branch", "text": "GitHub Repositories" }
+    ],
+    "actions": [
+      {
+        "label": "Download Resume",
+        "icon": "fa-solid fa-file-arrow-down",
+        "href": "assets/docs/resume/Yash_ATS_Resume1.pdf",
+        "variant": "primary",
+        "download": true
+      },
+      {
+        "label": "GitHub",
+        "icon": "fa-brands fa-github",
+        "href": "https://github.com/yashraykar0264"
+      },
+      {
+        "label": "LinkedIn",
+        "icon": "fa-brands fa-linkedin",
+        "href": "https://www.linkedin.com/in/yash-raykar/"
+      },
+      
+      { "label": "Print", "icon": "fa-solid fa-print", "buttonId": "printBtn" }
+    ],
+    "stats": [
+      {
+        "count": 2,
+        "label": "Full-Stack Projects",
+        "icon": "fas fa-folder-open"
+      },
+      { "count": 889, "label": "CGPA 8.89/10", "icon": "fas fa-chart-line" },
+      { "count": 150, "label": "DSA Problems", "icon": "fas fa-code" }
+    ],
+    "panel": {
+      "location": "Pune, Maharashtra, India",
+      "role": "Full Stack Developer (MERN)",
+      "stack": "React.js, Node.js, Express.js, MongoDB, MySQL, JWT, REST APIs",
+      "title": "Work-Ready Profile",
+      "items": [
+        "Originedge Web Developer Intern experience",
+        "150+ DSA problems solved using C++",
+        "Current CGPA: 8.89/10"
+      ]
+    }
+  },
+  "sections": {
+    "about": {
+      "eyebrow": { "icon": "fas fa-user", "text": "About me" },
+      "title": "Frontend-focused MERN developer with internship-ready proof.",
+      "note": "B.E. Computer Engineering Student building React interfaces, REST API workflows, authentication-based apps, and SQL/MongoDB-backed systems.",
+      "objective": {
+        "title": "Career Objective",
+        "icon": "fas fa-bullseye",
+        "text": "B.E. Computer Engineering Student with a 8.89/10 CGPA and Web Developer Intern experience at Originedge Technology. I build responsive React interfaces, REST APIs, authentication flows, and database-driven MERN applications using MySQL, MongoDB, Prisma, and JWT.",
+        "links": [
+          {
+            "label": "Email",
+            "icon": "fa-solid fa-envelope",
+            "href": "mailto:raykaryash45@gmail.com"
+          }
+        ]
+      },
+      "detailsTitle": "Student Details",
+      "details": [
+        { "label": "Full Name", "icon": "fas fa-user", "value": "Yash Raykar" },
+        {
+          "label": "Date of Birth",
+          "icon": "fas fa-calendar",
+          "value": "22/07/2005"
+        },
+        {
+          "label": "Role",
+          "icon": "fas fa-graduation-cap",
+          "value": "Final-year Computer Engineering Student"
+        },
+        {
+          "label": "College",
+          "icon": "fas fa-university",
+          "value": "SKN sinhgad institute of technology and science, Pune"
+        },
+        {
+          "label": "University",
+          "icon": "fas fa-building-columns",
+          "value": "Savitribai Phule Pune University"
+        },
+        {
+          "label": "Location",
+          "icon": "fas fa-location-dot",
+          "value": "Pune, Maharashtra, India"
+        },
+        {
+          "label": "Interests",
+          "icon": "fas fa-heart",
+          "value": "Full-stack development, DSA, AI fundamentals, databases"
+        }
+      ],
+      "snapshot": [
+        {
+          "label": "Best fit",
+          "icon": "fas fa-star",
+          "value": "Frontend / Web Developer Intern"
+        },
+        {
+          "label": "Strength",
+          "icon": "fas fa-chart-simple",
+          "value": "React UI, APIs, CRUD systems"
+        },
+        {
+          "label": "Learning",
+          "icon": "fas fa-graduation-cap",
+          "value": "150+ Java DSA problems"
+        }
+      ]
+    },
+    "academics": {
+      "eyebrow": {
+        "icon": "fas fa-chart-line",
+        "text": "Academic performance"
+      },
+      "title": "Education, CGPA, and scorecard evidence.",
+      "note": "Academic progress and supporting documents are organized for quick review alongside the developer profile.",
+      "education": [
+        {
+          "period": "2023 - 2027 Current",
+          "meta": "BE Computer Engineering",
+          "icon": "fas fa-microchip",
+          "title": "SKN Sinhgad Institute of Technology & Science, Pune",
+          "text": "VI Semester completed; entering final year. Current CGPA: 8.89/10."
+        },
+        {
+          "period": "2023",
+          "meta": "HSC",
+          "icon": "fas fa-book",
+          "title": "Maharaja Jivajirao Shinde Mahavidalaya Shrigonda",
+          "text": "Higher secondary education record included through local HSC score card PDF."
+        },
+        {
+          "period": "2021",
+          "meta": "SSC",
+          "icon": "fas fa-school",
+          "title": "Mahatma Gandhi Vidyalaya, Paranda",
+          "text": "SSC academic foundation record included through the local score card folder."
+        }
+      ],
+      "assetsTitle": "Academic Assets",
+      "assetsText": "Institution images and score card PDFs are linked below for quick review. Overall equivalent academic progress: 88.9% based on CGPA 8.89/10.",
+      "progress": [
+        {
+          "area": "Current CGPA",
+          "icon": "fas fa-chart-line",
+          "level": "8.89/10",
+          "value": "88.9%"
+        },
+        {
+          "area": "Web Development",
+          "icon": "fab fa-react",
+          "level": "Strong",
+          "value": "88%"
+        },
+        {
+          "area": "Database Systems",
+          "icon": "fas fa-database",
+          "level": "Strong",
+          "value": "82%"
+        },
+        {
+          "area": "DSA Practice",
+          "icon": "fas fa-code",
+          "level": "150+ Problems",
+          "value": "78%"
+        }
+      ],
+      "institutions": [
+        {
+          "image": "assets/images/institutions/sknsits_cover.jpeg",
+          "alt": "SKN Sinhgad Institute of Technology & Science, Pune",
+          "label": "UG College - Computer Engineering",
+          "icon": "fas fa-university"
+        },
+        {
+          "image": "assets/images/institutions/mjs.jpeg",
+          "alt": "HSC college institution image",
+          "label": "HSC College - 11th & 12th",
+          "icon": "fas fa-school"
+        },
+        {
+          "image": "assets/images/institutions/image.png",
+          "alt": "SSC school institution image",
+          "label": "SSC School - 10th",
+          "icon": "fas fa-school-flag"
+        }
+      ],
+      "scorecards": [
+        {
+          "title": "UG Semester Results",
+          "icon": "fas fa-graduation-cap",
+          "subtitle": "BE Computer Engineering",
+          "links": [
+            {
+              "label": "Semester I",
+              "href": "assets/docs/scorecards/semester-1.pdf"
+            },
+            {
+              "label": "Semester II",
+              "href": "assets/docs/scorecards/semester-2.pdf"
+            },
+            {
+              "label": "Semester III",
+              "href": "assets/docs/scorecards/semester-3.pdf"
+            },
+            {
+              "label": "Semester IV",
+              "href": "assets/docs/scorecards/semester-4.pdf"
+            },
+            {
+              "label": "Semester V",
+              "href": "assets/docs/scorecards/semester-5.pdf"
+            },
+            {
+              "label": "Semester VI - Not-Declared",
+              "href": "assets/docs/scorecards/semester-6.pdf"
+            }
+          ]
+        },
+        {
+          "title": "HSC Result",
+          "icon": "fas fa-book-open",
+          "subtitle": "12th",
+          "links": [
+            {
+              "label": "HSC Score Card",
+              "href": "assets/docs/scorecards/hsc.pdf"
+            }
+          ]
+        },
+        {
+          "title": "SSC Result",
+          "icon": "fas fa-school",
+          "subtitle": "10th",
+          "links": [
+            {
+              "label": "SSC Score Card",
+              "href": "assets/docs/scorecards/ssc.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    "automation": {
+      "eyebrow": {
+        "icon": "fas fa-gears",
+        "text": "GEMA automation readiness"
+      },
+      "title": "Batch-ready student portfolio generation from JSON.",
+      "note": "This section demonstrates how the same portfolio layout can map structured student records into reusable UI blocks for GEMA Clubs, LMS workflows, and future WordPress integration.",
+      "workflowTitle": "Automation Workflow",
+      "workflow": [
+        {
+          "icon": "fas fa-file-code",
+          "title": "JSON Payload",
+          "text": "Student records are stored in a structured JSON payload with student info, school info, participation data, documents, contact details, and portfolio sections."
+        },
+        {
+          "icon": "fas fa-diagram-project",
+          "title": "Reusable Mapper",
+          "text": "The renderer reads the JSON keys and maps them into consistent portfolio cards, academic blocks, certificate sections, document links, and contact panels."
+        },
+        {
+          "icon": "fas fa-layer-group",
+          "title": "Single UI Template",
+          "text": "The visual design remains reusable while each student profile can change through data only, making bulk updates faster and less error-prone."
+        },
+        {
+          "icon": "fab fa-wordpress",
+          "title": "WordPress LMS Ready",
+          "text": "The same data structure can be adapted for WordPress custom fields, LearnPress course progress, Gamify achievements, and certificate pages."
+        }
+      ],
+      "fieldsTitle": "Supported JSON Fields",
+      "supportedFields": [
+        "student_name",
+        "school_name",
+        "grade_section",
+        "participation_category",
+        "certificate_type",
+        "issue_date",
+        "verification_documents",
+        "email",
+        "parent_details",
+        "address",
+        "school_incharge_contact",
+        "statistical_data",
+        "education",
+        "certificates",
+        "experience"
+      ],
+      "sampleTitle": "Sample Student Records",
+      "sampleStudents": [
+        {
+          "studentName": "Sample GEMA Student A",
+          "school": "GEMA Partner School",
+          "grade": "Grade 8 - Section A",
+          "category": "Coding Club",
+          "certificate": "Participation Certificate",
+          "mappedSections": [
+            "Profile",
+            "Academics",
+            "Certificates",
+            "Verification Docs"
+          ]
+        },
+        {
+          "studentName": "Sample GEMA Student B",
+          "school": "International Online Learner",
+          "grade": "Grade 6 - Section B",
+          "category": "STEM Activity",
+          "certificate": "Achievement Certificate",
+          "mappedSections": ["Profile", "Statistics", "Experience", "Contact"]
+        }
+      ]
+    },
+    "journey": {
+      "eyebrow": {
+        "icon": "fas fa-people-arrows",
+        "text": "Development journey"
+      },
+      "title": "Training, internship work, and project-based learning.",
+      "note": "The portfolio combines internship tasks, structured training, GitHub projects, and steady problem solving.",
+      "items": [
+        {
+          "icon": "fa-solid fa-briefcase",
+          "titleIcon": "fas fa-building",
+          "title": "Codtech IT Solutions Pvt. Ltd.",
+          "text": "MERN Stack Web Development Intern"
+        },
+        {
+          "icon": "fa-solid fa-code",
+          "titleIcon": "fas fa-globe",
+          "title": "Web Development",
+          "text": "Built responsive pages, React interfaces, Bootstrap layouts, reusable components, and Vite applications."
+        },
+        {
+          "icon": "fa-solid fa-server",
+          "titleIcon": "fas fa-plug",
+          "title": "Backend APIs",
+          "text": "Created Express.js REST APIs with JWT authentication, validation, protected routes, and structured controllers."
+        },
+        {
+          "icon": "fa-solid fa-database",
+          "titleIcon": "fas fa-table",
+          "title": "Database Practice",
+          "text": "Worked with MongoDB, Mongoose, MySQL and CRUD operations."
+        },
+        {
+          "icon": "fa-solid fa-diagram-project",
+          "titleIcon": "fas fa-sitemap",
+          "title": "MVC Architecture",
+          "text": "Practiced project organization through routes, controllers, models, middleware, services, and utilities."
+        },
+        {
+          "icon": "fa-solid fa-brain",
+          "titleIcon": "fas fa-chart-line",
+          "title": "DSA Learning",
+          "text": "Solved 150+ problems using Java across arrays, strings, recursion, searching, sorting, and logic building."
+        }
+      ]
+    },
+    "experience": {
+      "eyebrow": { "icon": "fas fa-briefcase", "text": "Experience" },
+      "title": "Web Developer Intern at Codtech IT Solutions Pvt. Ltd.",
+      "note": "Current internship work adds real team workflow, code iteration, and production-style frontend practice to the project portfolio.",
+      "items": [
+        {
+          "period": "1-Month",
+          "meta": "React.js, REST APIs, Git/GitHub",
+          "icon": "fab fa-react",
+          "title": "Web Developer Intern - Codtech IT Solutions Pvt. Ltd.",
+          "text": "Develop reusable React.js components and responsive page sections, integrate REST APIs, resolve frontend bugs, test UI behavior across browser states, and maintain structured Git/GitHub updates from mentor feedback."
+        }
+      ]
+    },
+    "achievements": {
+      "eyebrow": { "icon": "fas fa-medal", "text": "Achievements" },
+      "title": "Measurable progress and portfolio milestones.",
+      "note": "Achievement content highlights DSA practice, GitHub activity, internship growth, and documented project work.",
+      "items": [
+        {
+          "icon": "fa-solid fa-check-circle",
+          "titleIcon": "fas fa-code",
+          "title": "150+ DSA Problems",
+          "text": "Solved using Java, improving problem-solving skills in arrays, strings, recursion, searching, sorting, and logic building."
+        },
+        {
+          "icon": "fa-solid fa-check-circle",
+          "titleIcon": "fab fa-github",
+          "title": " GitHub Repositories",
+          "text": "Maintained public repositories across MERN stack, SQL, REST APIs, CRUD apps, frontend apps, games, and AI/computer vision basics."
+        },
+        {
+          "icon": "fa-solid fa-check-circle",
+          "titleIcon": "fab fa-github-alt",
+          "title": "GitHub Achievements",
+          "text": "Earned Quickdraw, Pull Shark, and YOLO badges while practicing public code contribution and repository maintenance."
+        },
+        {
+          "icon": "fa-solid fa-check-circle",
+          "titleIcon": "fas fa-briefcase",
+          "title": "Internship Workflow",
+          "text": "Practiced React component development, frontend debugging, API integration, and Git-based mentor feedback cycles."
+        }
+      ]
+    },
+    "projects": {
+      "eyebrow": { "icon": "fas fa-laptop-code", "text": "Projects" },
+      "title": "Featured projects with code, UI evidence, and stack details.",
+      "note": "Projects show practical frontend, backend, database, authentication, API, and deployment experience.",
+      "items": [
+        {
+          "title": "VIP Engineer - Notes Selling Platform",
+          "icon": "fas fa-book-open",
+          "image": "assets/images/projects/vip/image.png",
+          "alt": "VIP Engineer project screenshot",
+          "description": "Built a MERN-stack notes selling platform with JWT authentication, role-based access, PDF management, REST APIs, MongoDB Atlas integration, and deployment using Vercel and Render.",
+          "back": "VIP Engineer is a full-stack platform where students can browse, purchase, and access study notes. Features include authentication, admin dashboard, note management, PDF uploads, and secure access control.",
+          "tags": [
+            "React.js",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "JWT",
+            "REST API"
+          ],
+          "links": [
+            {
+              "label": "Live Demo",
+              "icon": "fa-solid fa-arrow-up-right-from-square",
+              "href": "https://vip-engineer.vercel.app/"
+            },
+            {
+              "label": "GitHub",
+              "icon": "fa-brands fa-github",
+              "href": "https://github.com/yashraykar0264/vip-engineer"
+            }
+          ]
+        },
+
+        {
+          "title": "WanderLust Stays",
+          "icon": "fas fa-hotel",
+          "image": "assets/images/projects/wanderlust-stays/listings-feed.png",
+          "alt": "WanderLust listings feed",
+          "description": "Airbnb-style MERN project with property listings, user auth, reviews, owner controls, map location support, image uploads, and deployment on Render.",
+          "back": "MERN travel listing app with authentication, reviews, owner features, maps, uploads, and deployed backend.",
+          "tags": ["MongoDB", "Express", "React", "Node", "Render"],
+          "links": [
+            
+            {
+              "label": "Live",
+              "icon": "fa-solid fa-arrow-up-right-from-square",
+              "href": "https://wanderlust-stays-1xvg.onrender.com/"
+            },
+            {
+              "label": "Code",
+              "icon": "fa-brands fa-github",
+              "href": "https://github.com/yashraykar0264/Wanderlust-Stays"
+            }
+          ]
+        }
+      ]
+    },
+    
+    "skills": {
+      "eyebrow": { "icon": "fas fa-cubes", "text": "Skills matrix" },
+      "title": "Technical, academic, and professional skills.",
+      "note": "Skills are grouped around the resume target: frontend internships, MERN stack work, API integration, and C++ DSA practice.",
+      "rings": [
+        { "label": "Frontend", "icon": "fas fa-laptop-code", "percent": 88 },
+        { "label": "Backend", "icon": "fas fa-server", "percent": 84 },
+        { "label": "Database", "icon": "fas fa-database", "percent": 82 },
+        { "label": "DSA", "icon": "fas fa-diagram-project", "percent": 78 }
+      ],
+      "groups": [
+        {
+          "title": "Languages",
+          "icon": "fas fa-code",
+          "items": ["C++", "JavaScript", "SQL", "Java Basic", "Python Basic"]
+        },
+        {
+          "title": "Frontend",
+          "icon": "fas fa-laptop-code",
+          "items": ["HTML5", "CSS3", "React.js", "Bootstrap", "Material UI"]
+        },
+        {
+          "title": "Backend",
+          "icon": "fas fa-server",
+          "items": ["Node.js", "Express.js", "REST APIs", "JWT", "bcrypt"]
+        },
+        {
+          "title": "Databases",
+          "icon": "fas fa-database",
+          "items": ["MongoDB", "Mongoose", "MySQL", "Prisma"]
+        },
+        {
+          "title": "Tools",
+          "icon": "fas fa-tools",
+          "items": [
+            "Git",
+            "GitHub",
+            "VS Code",
+            "Postman",
+            "Render",
+            "Netlify",
+            "Vite"
+          ]
+        },
+        {
+          "title": "Core CS",
+          "icon": "fas fa-microchip",
+          "items": [
+            "DSA 150+",
+            "OOP",
+            "DBMS",
+            "MVC",
+            "Authentication",
+            "Authorization"
+          ]
+        },
+        {
+          "title": "Soft Skills",
+          "icon": "fas fa-hand-peace",
+          "items": [
+            "Problem Solving",
+            "Debugging",
+            "Team Collaboration",
+            "Quick Learning",
+            "Ownership"
+          ]
+        }
+      ]
+    },
+    "blog": {
+      "eyebrow": { "icon": "fas fa-blog", "text": "Student blog" },
+      "title": "Short notes on learning and project work.",
+      "note": "Concise developer notes that explain how I think about projects, practice, and continuous learning.",
+      "readMoreLabel": "Read More",
+      "showLessLabel": "Show Less",
+      "items": [
+        {
+          "date": "June 2026",
+          "title": "My Journey from Student to MERN Stack Developer",
+          "icon": "fas fa-road",
+          "summary": "I started with frontend basics, moved into backend routing and databases, and gradually connected both sides through full-stack projects.",
+          "more": "This journey helped me understand how UI, APIs, validation, and databases work together in real applications."
+        },
+        {
+          "date": "June 2026",
+          "title": "What I Learned While Building Full Stack Projects",
+          "icon": "fas fa-graduation-cap",
+          "summary": "Real projects taught me authentication, protected routes, schema design, API testing, validation, uploads, deployment, and debugging discipline.",
+          "more": "The biggest lesson was that clean structure matters as much as adding features."
+        },
+        {
+          "date": "June 2026",
+          "title": "Why DSA and Projects Both Matter for Developers",
+          "icon": "fas fa-chart-line",
+          "summary": "DSA improves structured thinking, while projects teach product flow, user experience, and practical engineering decisions.",
+          "more": "Together, they build both interview confidence and practical engineering maturity."
+        }
+      ]
+    },
+    "testimonials": {
+      "eyebrow": { "icon": "fas fa-comment-dots", "text": "Testimonials" },
+      "title": "Signals from learning, review, and collaboration.",
+      "note": "A compact credibility section focused on learning consistency, project ownership, and team workflow.",
+      "items": [
+        {
+          "role": "Learning Signal",
+          "icon": "fas fa-chalkboard-user",
+          "title": "Consistent learner",
+          "text": "Pratik shows steady improvement in software fundamentals and applies classroom concepts through practical development projects."
+        },
+        {
+          "role": "Internship Signal",
+          "icon": "fas fa-briefcase",
+          "title": "Frontend workflow",
+          "text": "Internship tasks are helping him practice reusable components, API integration, debugging, and fast iteration from feedback."
+        },
+        {
+          "role": "Project Review",
+          "icon": "fas fa-eye",
+          "title": "Project ownership",
+          "text": "His portfolio reflects initiative, documentation effort, and the ability to connect frontend, backend, and database workflows."
+        },
+        {
+          "role": "Collaboration Signal",
+          "icon": "fas fa-users",
+          "title": "Team mindset",
+          "text": "Pratik is comfortable discussing problems, debugging issues, and learning new tools needed to complete a feature."
+        }
+      ]
+    },
+    "contact": {
+      "eyebrow": { "icon": "fas fa-address-card", "text": "Contact" },
+      "title": "Let's connect.",
+      "note": "Use the resume, email, GitHub, or LinkedIn links to review work and connect for internship opportunities.",
+      "linksTitle": "Contact Links",
+      "formTitle": "Send a Message",
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "Your email",
+      "messagePlaceholder": "Your message",
+      "buttonLabel": "Send Message",
+      "links": [
+        {
+          "label": "raykaryash45@gmail.com",
+          "icon": "fa-solid fa-envelope",
+          "href": "mailto:raykaryash45@gmail.com"
+        },
+        {
+          "label": "github.com/Yash-Raykar",
+          "icon": "fa-brands fa-github",
+          "href": "https://github.com/yashraykar0264"
+        },
+        {
+          "label": "linkedin.com/in/yash-raykar-6b66a8286",
+          "icon": "fa-brands fa-linkedin",
+          "href": "https://www.linkedin.com/in/yash-raykar/"
+        }
+      ]
+    }
+  },
+  "contactForm": {
+    "recipient": "raykaryash45@gmail.com",
+    "subject": "Portfolio Contact - Interview / Internship Opportunity",
+    "invalidEmail": "Please enter a valid email address.",
+    "bodyLines": [
+      "Hello Yash,",
+      "",
+      "I visited your developer portfolio and would like to connect regarding an opportunity.",
+      "",
+      "Recruiter / Interviewer Details:",
+      "Name: {{name}}",
+      "Email: {{email}}",
+      "",
+      "Message:",
+      "{{message}}",
+      "",
+      "Sent from Yash Dilip Raykar's Developer Portfolio contact form."
+    ],
+    "success": "Thank you, {{name}}. Your email app is opening with a professional message for Yash."
+  },
+  "intro": {
+    "label": "Professional profile summary",
+    "title": "Hi, I am Yash Dilip Raykar.",
+    "text": "I am a final-year Computer Engineering student specializing in AI, a Web Developer Intern at Originedge Technology, and a frontend-focused MERN developer. I build responsive interfaces, REST API workflows, authentication-based apps, and database-driven projects, with 150+ C++ DSA problems solved and 15+ GitHub repositories.",
+    "actions": [
+      {
+        "label": "View Resume",
+        "icon": "fa-solid fa-file-lines",
+        "href": "assets/docs/resume/yash-raykar-resume.pdf",
+        "variant": "primary"
+      },
+      {
+        "label": "GitHub",
+        "icon": "fa-brands fa-github",
+        "href": "https://github.com/Yash-Raykar"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "2026 Yash Dilip Raykar - Developer Portfolio",
+    "quotes": [
+      "Build quietly. Let the projects speak.",
+      "Consistency turns practice into proof.",
+      "Great software starts with clear thinking.",
+      "DSA sharpens logic. Projects sharpen judgment."
+    ],
+    "clockPrefix": "IST"
+  }
+}

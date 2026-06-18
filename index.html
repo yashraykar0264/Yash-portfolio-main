@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="pageTitle"></title>
+  <meta id="pageDescription" name="description" content="">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <canvas id="spaceCanvas" aria-hidden="true"></canvas>
+  <div class="particle-field" id="particleField" aria-hidden="true"></div>
+  <div class="laser-cursor" id="laserCursor" aria-hidden="true"></div>
+
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a class="brand" id="brandLink" href="#home" aria-label=""></a>
+      <ul class="nav-links" id="navLinks"></ul>
+      <div class="nav-actions">
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="" title=""></button>
+        <button class="menu-btn" id="menuBtn" type="button" aria-label="" title=""></button>
+      </div>
+    </div>
+  </nav>
+
+  <main id="home"></main>
+
+  <footer class="footer" id="footer"></footer>
+
+  <div class="floating-actions">
+    <button class="icon-btn back-top" id="backTop" type="button" aria-label="" title=""></button>
+  </div>
+
+  <div class="lightbox" id="lightbox" aria-modal="true" role="dialog">
+    <button class="icon-btn" id="closeLightbox" type="button" aria-label=""></button>
+    <img id="lightboxImage" src="" alt="">
+  </div>
+
+  <div class="intro-modal" id="introModal" aria-modal="true" role="dialog" aria-labelledby="introTitle"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="js/render-portfolio.js"></script>
+</body>
+</html>

@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yash Raykar Portfolio - Project Documentation</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 18mm 14mm;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      color: #1b2430;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 11.5pt;
+      line-height: 1.55;
+      background: #ffffff;
+    }
+
+    .page {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 18px 0;
+    }
+
+    .cover {
+      min-height: 920px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border: 2px solid #0f766e;
+      padding: 46px;
+      border-radius: 8px;
+      page-break-after: always;
+    }
+
+    .brand {
+      color: #0f766e;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 20px 0 12px;
+      color: #0f172a;
+      font-size: 34pt;
+      line-height: 1.08;
+    }
+
+    h2 {
+      margin: 30px 0 10px;
+      padding-bottom: 6px;
+      color: #0f766e;
+      font-size: 18pt;
+      border-bottom: 1px solid #99f6e4;
+      page-break-after: avoid;
+    }
+
+    h3 {
+      margin: 18px 0 8px;
+      color: #0f172a;
+      font-size: 13.5pt;
+      page-break-after: avoid;
+    }
+
+    p {
+      margin: 0 0 10px;
+    }
+
+    a {
+      color: #0f766e;
+      text-decoration: none;
+      word-break: break-word;
+    }
+
+    ul {
+      margin: 8px 0 14px 20px;
+      padding: 0;
+    }
+
+    li {
+      margin: 4px 0;
+    }
+
+    .meta-grid,
+    .summary-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin: 18px 0;
+    }
+
+    .box {
+      border: 1px solid #d9e2ec;
+      border-radius: 8px;
+      padding: 14px;
+      background: #f8fafc;
+    }
+
+    .box strong {
+      display: block;
+      margin-bottom: 4px;
+      color: #0f172a;
+    }
+
+    table {
+      width: 100%;
+      margin: 12px 0 20px;
+      border-collapse: collapse;
+      page-break-inside: avoid;
+    }
+
+    th,
+    td {
+      padding: 9px 10px;
+      text-align: left;
+      vertical-align: top;
+      border: 1px solid #d9e2ec;
+    }
+
+    th {
+      color: #0f172a;
+      background: #ccfbf1;
+      font-weight: 700;
+    }
+
+    .day {
+      margin: 18px 0 22px;
+      padding: 14px 16px;
+      border-left: 4px solid #0f766e;
+      background: #f8fafc;
+      page-break-inside: avoid;
+    }
+
+    .day h3 {
+      margin-top: 0;
+    }
+
+    .footer-note {
+      margin-top: 34px;
+      padding-top: 12px;
+      color: #475569;
+      font-size: 10pt;
+      border-top: 1px solid #d9e2ec;
+    }
+
+    .org {
+      color: #475569;
+      font-size: 10.5pt;
+      line-height: 1.45;
+    }
+
+    .signature {
+      margin-top: 28px;
+      padding: 14px;
+      background: #f0fdfa;
+      border: 1px solid #99f6e4;
+      border-radius: 8px;
+    }
+
+    .section {
+      page-break-inside: auto;
+    }
+
+    .screenshot-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin: 14px 0 20px;
+    }
+
+    .screenshot-card {
+      border: 1px solid #d9e2ec;
+      border-radius: 8px;
+      padding: 10px;
+      background: #ffffff;
+      page-break-inside: avoid;
+    }
+
+    .screenshot-card img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+    }
+
+    .screenshot-card strong {
+      display: block;
+      margin: 8px 0 3px;
+      color: #0f172a;
+    }
+
+    .screenshot-card p {
+      margin: 0;
+      color: #475569;
+      font-size: 10.2pt;
+    }
+
+    @media print {
+      .page {
+        padding: 0;
+      }
+
+      h2 {
+        break-after: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="cover">
+      <div>
+        <p class="brand">OriginEdge Technologies</p>
+        <h1>Personal Portfolio Website<br>Project Documentation</h1>
+        <p>
+          A modern, responsive, and recruiter-ready personal portfolio website developed for
+          <strong>Pratik Vijay Shelar</strong>.
+        </p>
+
+        <div class="meta-grid">
+          <div class="box">
+            <strong>Project Name</strong>
+            Yash Raykar Portfolio
+          </div>
+          <div class="box">
+            <strong>Project Type</strong>
+            Personal Portfolio Website
+          </div>
+          <div class="box">
+            <strong>Developer</strong>
+            Pratik Vijay Shelar
+          </div>
+          <div class="box">
+            <strong>Technology Stack</strong>
+            HTML5, CSS3, JavaScript, Three.js, Font Awesome
+          </div>
+          <div class="box">
+            <strong>Live Portfolio</strong>
+            <a href="https://lively-starlight-dffa3f.netlify.app/">https://lively-starlight-dffa3f.netlify.app/</a>
+          </div>
+          <div class="box">
+            <strong>GitHub Repository</strong>
+            <a href="https://github.com/Pratik-Ghrcemp/pratik-shelar-portfolio">github.com/Pratik-Ghrcemp/pratik-shelar-portfolio</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="org">
+        <strong>OriginEdge Technologies</strong><br>
+        B-607, Block B - Ratnaakar Nine Square<br>
+        Opp. ITC Hotel, Vastrapur, Ahmedabad 380015<br>
+        Website: www.originedgetech.com
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Project Overview</h2>
+      <p>
+        The Personal Portfolio Website is a modern and responsive digital resume created to
+        showcase Pratik Vijay Shelar's skills, projects, achievements, education, certifications,
+        resume, and professional contact details. The website works as a personal branding platform
+        where recruiters, mentors, and clients can quickly understand the developer's profile,
+        technical strengths, academic background, and project experience.
+      </p>
+      <p>
+        The website is built as a static frontend project using HTML, CSS, and JavaScript. It includes
+        interactive UI elements such as animated hero content, theme switching, responsive navigation,
+        project cards, certificate previews, contact form validation, and resume download support.
+      </p>
+      <p>
+        The current architecture is JSON-driven. Portfolio content is stored in
+        <strong>data/portfolio.json</strong>, while <strong>js/render-portfolio.js</strong> maps that
+        structured data into reusable UI sections. The HTML acts as a lightweight single-page shell,
+        and visible portfolio content, navigation labels, section copy, assets, contact form copy,
+        footer text, icons, accessibility labels, and UI settings are controlled through the JSON
+        payload. This makes the same design easier to reuse for automated student portfolio
+        generation from future JSON payloads.
+      </p>
+      <p>
+        An additional Automation section has been added to demonstrate the GEMA-style use case:
+        batch student records can be mapped from JSON fields such as student name, school name,
+        grade and section, participation category, certificate type, issue date, verification
+        documents, parent/contact details, statistical data, education, certificates, and experience.
+        The same structure can be adapted later for WordPress custom fields, LearnPress progress
+        data, Gamify achievements, and student certificate pages.
+      </p>
+
+      <div class="summary-grid">
+        <div class="box">
+          <strong>Primary Purpose</strong>
+          To present a professional online portfolio and improve visibility for internship,
+          freelancing, and web development opportunities.
+        </div>
+        <div class="box">
+          <strong>Target Users</strong>
+          Recruiters, HR teams, clients, faculty members, mentors, and professional contacts.
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Learning Objectives</h2>
+      <ul>
+        <li>Build responsive web interfaces for desktop, tablet, and mobile devices.</li>
+        <li>Create a professional portfolio website with a strong personal brand.</li>
+        <li>Apply modern UI/UX design principles in layout, spacing, typography, and interaction.</li>
+        <li>Organize and manage the project using Git and GitHub.</li>
+        <li>Render portfolio content dynamically from a structured JSON data source.</li>
+        <li>Deploy a static website using Netlify.</li>
+        <li>Improve frontend development skills through real project implementation.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Final Deliverables</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Deliverable</th>
+            <th>Status</th>
+            <th>Implementation Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Responsive Personal Portfolio Website</td>
+            <td>Completed</td>
+            <td>Includes mobile-friendly layout, responsive sections, navigation, and project showcase.</td>
+          </tr>
+          <tr>
+            <td>GitHub Repository</td>
+            <td>Completed</td>
+            <td>Source code is available at the public GitHub repository.</td>
+          </tr>
+          <tr>
+            <td>Live Netlify Deployment</td>
+            <td>Completed</td>
+            <td>Portfolio is deployed and accessible through the Netlify live URL.</td>
+          </tr>
+          <tr>
+            <td>Resume Download Feature</td>
+            <td>Completed</td>
+            <td>Resume PDF is stored in the assets folder and linked from the hero section.</td>
+          </tr>
+          <tr>
+            <td>Contact Form</td>
+            <td>Completed</td>
+            <td>Contact form UI includes JavaScript-based email validation and user feedback.</td>
+          </tr>
+          <tr>
+            <td>JSON-Driven Rendering</td>
+            <td>Completed</td>
+            <td>Portfolio content, navigation, UI labels, icons, links, and section data are stored in data/portfolio.json and rendered dynamically by JavaScript.</td>
+          </tr>
+          <tr>
+            <td>GEMA Automation Demo</td>
+            <td>Completed</td>
+            <td>Added a live Automation section showing JSON field mapping, sample student records, reusable workflow, and WordPress LMS readiness.</td>
+          </tr>
+          <tr>
+            <td>Skills and Projects Showcase</td>
+            <td>Completed</td>
+            <td>Technical skills, tools, featured projects, screenshots, and project links are displayed.</td>
+          </tr>
+          <tr>
+            <td>Professional Documentation</td>
+            <td>Completed</td>
+            <td>This PDF document explains the project plan, implementation, deliverables, and deployment.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <h2>Technology Stack</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Category</th>
+            <th>Technology</th>
+            <th>Purpose</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Structure</td>
+            <td>HTML5</td>
+            <td>Creates the semantic layout and website sections.</td>
+          </tr>
+          <tr>
+            <td>Styling</td>
+            <td>CSS3</td>
+            <td>Handles responsive design, cards, animations, themes, and visual polish.</td>
+          </tr>
+          <tr>
+            <td>Interactivity</td>
+            <td>JavaScript</td>
+            <td>Controls navigation behavior, theme toggle, counters, form validation, and UI effects.</td>
+          </tr>
+          <tr>
+            <td>Visual Effects</td>
+            <td>Three.js and CSS Animations</td>
+            <td>Adds modern background visuals, reveal animations, and interactive experience.</td>
+          </tr>
+          <tr>
+            <td>Icons</td>
+            <td>Font Awesome</td>
+            <td>Provides clean icons for navigation, buttons, skills, and contact links.</td>
+          </tr>
+          <tr>
+            <td>Version Control</td>
+            <td>Git and GitHub</td>
+            <td>Manages source code, project history, and public repository sharing.</td>
+          </tr>
+          <tr>
+            <td>Deployment</td>
+            <td>Netlify</td>
+            <td>Hosts the static portfolio website online.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <h2>Website Sections</h2>
+      <ul>
+        <li><strong>Navigation Bar:</strong> Responsive menu with links to major portfolio sections.</li>
+        <li><strong>Home / Hero Section:</strong> Introduction, profile image, role description, resume download, contact CTA, and project stats.</li>
+        <li><strong>About Me:</strong> Professional summary, academic background, interests, and internship focus.</li>
+        <li><strong>Academics:</strong> Education details with scorecard evidence for SSC, HSC, and B.Tech progress.</li>
+        <li><strong>Participation and Journey:</strong> Learning areas including frontend, backend, databases, DSA, and AI fundamentals.</li>
+        <li><strong>Achievements:</strong> DSA progress, GitHub achievements, full-stack project work, and documentation practice.</li>
+        <li><strong>Projects:</strong> Featured project cards with screenshots, technology tags, GitHub links, and live demo links where available.</li>
+        <li><strong>Certificates:</strong> Certificate gallery for Web Development, Frontend, MongoDB, MySQL, C++, and AI/ML.</li>
+        <li><strong>Skills:</strong> Technical, academic, tooling, and soft skills grouped in a clean skills matrix.</li>
+        <li><strong>Blog and Testimonials:</strong> Additional content that strengthens the personal brand and learning journey.</li>
+        <li><strong>Contact:</strong> Email, GitHub, LinkedIn, Instagram, and contact form UI.</li>
+        <li><strong>Footer:</strong> Closing message, live clock, quote line, and personal branding information.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Sample Screenshots</h2>
+      <p>
+        The following screenshots show the main pages and screens created for the portfolio website.
+        These images are included in the project assets and demonstrate the desktop layout, mobile
+        responsiveness, project showcase, academic proof, certificates, skills, blog, testimonials,
+        and contact flow.
+      </p>
+
+      <div class="screenshot-grid">
+        <div class="screenshot-card">
+          <img src="../assets/images/readme/desktop-preview.png" alt="Desktop homepage preview">
+          <strong>Desktop Home Page</strong>
+          <p>Hero section with profile introduction, action buttons, quick stats, and profile panel.</p>
+        </div>
+        <div class="screenshot-card">
+          <img src="../assets/images/readme/mobile-preview.png" alt="Mobile portfolio preview">
+          <strong>Mobile Responsive View</strong>
+          <p>Mobile optimized layout with compact navigation and responsive content stacking.</p>
+        </div>
+        <div class="screenshot-card">
+          <img src="../assets/images/readme/about-section.png" alt="About section screenshot">
+          <strong>About Section</strong>
+          <p>Career objective, student details, internship focus, and personal profile information.</p>
+        </div>
+        <div class="screenshot-card">
+          <img src="../assets/images/readme/academics-section.png" alt="Academics section screenshot">
+          <strong>Academics Section</strong>
+          <p>Education details, CGPA, institution information, and scorecard evidence links.</p>
+        </div>
+        <div class="screenshot-card">
+          <img src="../assets/images/readme/projects-section.png" alt="Projects section screenshot">
+          <strong>Projects Section</strong>
+          <p>Featured project cards with screenshots, descriptions, technology tags, and links.</p>
+        </div>
+        <div class="screenshot-card">
+          <img src="../assets/images/readme/certificates-section.png" alt="Certificates section screenshot">
+          <strong>Certificates Section</strong>
+          <p>Certificate gallery showing completed learning tracks and technical certifications.</p>
+        </div>
+        <div class="screenshot-card">
+          <img src="../assets/images/readme/skills-section.png" alt="Skills section screenshot">
+          <strong>Skills Section</strong>
+          <p>Grouped skill cards for languages, frontend, backend, databases, tools, and soft skills.</p>
+        </div>
+        <div class="screenshot-card">
+          <img src="../assets/images/readme/contact-section.png" alt="Contact section screenshot">
+          <strong>Contact Section</strong>
+          <p>Contact form UI, email, GitHub, LinkedIn, Instagram, and connection links.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Day-Wise Development Plan</h2>
+
+      <div class="day">
+        <h3>Day 1: Project Planning, Setup and Home Page Development</h3>
+        <p><strong>Objective:</strong> Set up the project structure and create the core layout of the portfolio website.</p>
+        <p><strong>Tasks Completed:</strong></p>
+        <ul>
+          <li>Created the project folder structure with separate folders for CSS, JavaScript, images, resume, and documents.</li>
+          <li>Initialized the Git repository and connected the project with GitHub.</li>
+          <li>Designed the website structure and page layout.</li>
+          <li>Created a responsive navigation bar.</li>
+          <li>Developed the Home / Hero section with profile introduction, CTA buttons, resume download, and profile image.</li>
+          <li>Created the About Me section with profile summary and academic details.</li>
+          <li>Implemented the initial responsive design.</li>
+        </ul>
+        <p><strong>Deliverables:</strong> Project structure, navigation bar, home section, about section, and initial responsive layout.</p>
+        <p><strong>Skills Learned:</strong> HTML structure, CSS layout, responsive design basics, and GitHub repository management.</p>
+      </div>
+
+      <div class="day">
+        <h3>Day 2: Skills and Projects Showcase Development</h3>
+        <p><strong>Objective:</strong> Build sections that highlight technical expertise and completed projects.</p>
+        <p><strong>Tasks Completed:</strong></p>
+        <ul>
+          <li>Created the Skills section with grouped skill categories.</li>
+          <li>Designed skill cards and tags for programming languages, frontend, backend, databases, tools, and soft skills.</li>
+          <li>Created the Projects section with responsive project cards.</li>
+          <li>Added project screenshots, descriptions, technology stacks, GitHub links, and live demo links.</li>
+          <li>Implemented hover effects, reveal animations, and interactive card behavior.</li>
+        </ul>
+        <p><strong>Deliverables:</strong> Skills section, projects section, interactive cards, and responsive project showcase.</p>
+        <p><strong>Skills Learned:</strong> CSS animations, Flexbox/Grid layouts, card-based UI design, and interface enhancement.</p>
+      </div>
+
+      <div class="day">
+        <h3>Day 3: Resume, Contact and Social Media Integration</h3>
+        <p><strong>Objective:</strong> Enable visitors to connect with the developer and access professional documents.</p>
+        <p><strong>Tasks Completed:</strong></p>
+        <ul>
+          <li>Added the downloadable resume feature using a local PDF file.</li>
+          <li>Created certificate and achievement sections.</li>
+          <li>Designed the contact form with name, email, and message fields.</li>
+          <li>Added JavaScript email validation and form feedback message.</li>
+          <li>Integrated social media and professional links including GitHub, LinkedIn, Instagram, and email.</li>
+          <li>Added a footer section with live clock and quote display.</li>
+          <li>Improved accessibility using semantic sections, labels, alt text, and ARIA attributes.</li>
+        </ul>
+        <p><strong>Deliverables:</strong> Resume section, contact form, social media links, certificate area, achievements, and footer.</p>
+        <p><strong>Skills Learned:</strong> Form handling, JavaScript validation, external link integration, and user interaction design.</p>
+      </div>
+
+      <div class="day">
+        <h3>Day 4: Testing, Optimization and Netlify Deployment</h3>
+        <p><strong>Objective:</strong> Prepare the website for production and deploy it online.</p>
+        <p><strong>Tasks Completed:</strong></p>
+        <ul>
+          <li>Reviewed all website sections and fixed UI consistency issues.</li>
+          <li>Tested responsiveness across desktop and mobile screen sizes.</li>
+          <li>Checked browser compatibility for modern browsers.</li>
+          <li>Optimized images and organized assets inside the project folders.</li>
+          <li>Pushed the final source code to GitHub.</li>
+          <li>Deployed the static website on Netlify.</li>
+          <li>Generated the live portfolio URL.</li>
+          <li>Created README and PDF project documentation.</li>
+        </ul>
+        <p><strong>Deliverables:</strong> Fully functional website, updated GitHub repository, Netlify deployment, live website link, and project documentation.</p>
+        <p><strong>Skills Learned:</strong> Website optimization, deployment workflow, performance testing, and production-ready development.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Featured Projects Included</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Project</th>
+            <th>Description</th>
+            <th>Technologies</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Maintenance Ticket Management System</td>
+            <td>Role-based ticket management application with ticket creation, assignment, status tracking, comments, uploads, authentication, and protected routes.</td>
+            <td>React, Node.js, Express.js, MySQL, Prisma, JWT</td>
+          </tr>
+          <tr>
+            <td>WanderLust Stays</td>
+            <td>Travel listing platform with authentication, property listings, owner actions, reviews, image upload flow, maps, and deployment.</td>
+            <td>MongoDB, Express.js, React, Node.js, Render</td>
+          </tr>
+          <tr>
+            <td>React Weather App</td>
+            <td>Weather dashboard with API-based search, dynamic visuals, temperature, humidity, loading states, and error handling.</td>
+            <td>React, Vite, Material UI, OpenWeather API</td>
+          </tr>
+          <tr>
+            <td>Mini WhatsApp CRUD Chat App</td>
+            <td>Server-rendered CRUD chat application with routes, MongoDB persistence, EJS views, and timestamps.</td>
+            <td>Node.js, Express.js, MongoDB, EJS</td>
+          </tr>
+          <tr>
+            <td>Currency Converter</td>
+            <td>API-based currency converter with exchange rates, country flags, swap logic, dark mode, and error states.</td>
+            <td>HTML5, CSS3, JavaScript, API</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <h2>Repository Structure</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Path</th>
+            <th>Purpose</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>index.html</td>
+            <td>Main portfolio webpage containing all content sections.</td>
+          </tr>
+          <tr>
+            <td>css/style.css</td>
+            <td>Main stylesheet for layout, responsive design, themes, and animations.</td>
+          </tr>
+          <tr>
+            <td>js/main.js</td>
+            <td>Core JavaScript for navigation, theme toggle, form validation, counters, clock, and print action.</td>
+          </tr>
+          <tr>
+            <td>js/animations.js</td>
+            <td>Animation and visual interaction logic.</td>
+          </tr>
+          <tr>
+            <td>js/components.js</td>
+            <td>Reusable component-level JavaScript behavior.</td>
+          </tr>
+          <tr>
+            <td>assets/images</td>
+            <td>Profile image, project screenshots, certificate images, institution images, and README previews.</td>
+          </tr>
+          <tr>
+            <td>assets/docs</td>
+            <td>Resume PDF and academic scorecard PDFs.</td>
+          </tr>
+          <tr>
+            <td>README.md</td>
+            <td>GitHub documentation for project overview, setup, features, and links.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <h2>Testing and Quality Checks</h2>
+      <ul>
+        <li>Checked navigation links and smooth scrolling behavior.</li>
+        <li>Verified resume download from the hero section.</li>
+        <li>Tested contact form validation with valid and invalid email formats.</li>
+        <li>Reviewed responsive layout across mobile, tablet, and desktop screen sizes.</li>
+        <li>Confirmed project screenshots, certificates, and profile image paths.</li>
+        <li>Checked external links for GitHub, LinkedIn, Instagram, email, live project, and live portfolio.</li>
+        <li>Reviewed visual consistency, spacing, readable typography, and section hierarchy.</li>
+      </ul>
+
+      <h3>Submission Link Verification</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Link</th>
+            <th>Verification Result</th>
+            <th>Checked On</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="https://lively-starlight-dffa3f.netlify.app/">https://lively-starlight-dffa3f.netlify.app/</a></td>
+            <td>Working, HTTP 200, portfolio title loaded successfully.</td>
+            <td>10 June 2026</td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/Pratik-Ghrcemp/pratik-shelar-portfolio">https://github.com/Pratik-Ghrcemp/pratik-shelar-portfolio</a></td>
+            <td>Working, HTTP 200, public GitHub repository page loaded successfully.</td>
+            <td>10 June 2026</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <h2>Deployment Details</h2>
+      <p>
+        The portfolio is a static frontend website, so no build command is required. The project root
+        is used as the publish directory, and <strong>index.html</strong> acts as the entry file. The
+        final website was deployed on Netlify and connected with the public GitHub repository.
+      </p>
+      <table>
+        <tbody>
+          <tr>
+            <th>Platform</th>
+            <td>Netlify</td>
+          </tr>
+          <tr>
+            <th>Build Command</th>
+            <td>Not required</td>
+          </tr>
+          <tr>
+            <th>Publish Directory</th>
+            <td>Project root</td>
+          </tr>
+          <tr>
+            <th>Entry File</th>
+            <td>index.html</td>
+          </tr>
+          <tr>
+            <th>Live Portfolio</th>
+            <td><a href="https://lively-starlight-dffa3f.netlify.app/">https://lively-starlight-dffa3f.netlify.app/</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <h2>Conclusion</h2>
+      <p>
+        The Personal Portfolio Website successfully meets the project requirements by presenting a
+        responsive, professional, and interactive web presence for Pratik Vijay Shelar. It includes
+        all core deliverables such as home, about, skills, projects, resume download, certifications,
+        achievements, contact form, social links, GitHub repository, and Netlify deployment.
+      </p>
+      <p>
+        This project demonstrates practical frontend development skills, project organization, UI/UX
+        design understanding, GitHub workflow, and deployment knowledge. It can be used as a digital
+        resume and personal branding platform for future internships, job applications, client work,
+        and academic presentation.
+      </p>
+
+      <div class="signature">
+        <strong>Submitted By:</strong> Pratik Vijay Shelar<br>
+        <strong>Project:</strong> Personal Portfolio Website<br>
+        <strong>Live Portfolio:</strong> <a href="https://lively-starlight-dffa3f.netlify.app/">https://lively-starlight-dffa3f.netlify.app/</a><br>
+        <strong>GitHub Repo:</strong> <a href="https://github.com/Pratik-Ghrcemp/pratik-shelar-portfolio">https://github.com/Pratik-Ghrcemp/pratik-shelar-portfolio</a>
+      </div>
+
+      <p class="footer-note">
+        OriginEdge Technologies, B-607, Block B - Ratnaakar Nine Square, Opp. ITC Hotel,
+        Vastrapur, Ahmedabad 380015 | www.originedgetech.com
+      </p>
+    </section>
+  </main>
+</body>
+</html>
