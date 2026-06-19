@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Yash Raykar | MERN Stack Developer Portfolio",
-    "description": "Professional portfolio of Yash Raykar, B.E. Computer Engineering Student, Web Developer Intern, MERN stack developer, and C++ DSA learner."
+    "description": "Professional portfolio of Yash Raykar, B.E. Computer Engineering Student, Web Developer Intern, MERN stack developer, and DSA learner."
   },
   "brand": {
     "mark": "YR",
@@ -134,7 +134,7 @@
       "title": "Work-Ready Profile",
       "items": [
         "Originedge Web Developer Intern experience",
-        "150+ DSA problems solved using C++",
+        "150+ DSA problems solved",
         "Current CGPA: 8.89/10"
       ]
     }
@@ -568,7 +568,7 @@
     "skills": {
       "eyebrow": { "icon": "fas fa-cubes", "text": "Skills matrix" },
       "title": "Technical, academic, and professional skills.",
-      "note": "Skills are grouped around the resume target: frontend internships, MERN stack work, API integration, and C++ DSA practice.",
+      "note": "Skills are grouped around the resume target: frontend internships, MERN stack work, API integration, and DSA practice.",
       "rings": [
         { "label": "Frontend", "icon": "fas fa-laptop-code", "percent": 88 },
         { "label": "Backend", "icon": "fas fa-server", "percent": 84 },
@@ -579,7 +579,7 @@
         {
           "title": "Languages",
           "icon": "fas fa-code",
-          "items": ["C++", "JavaScript", "SQL", "Java Basic", "Python Basic"]
+          "items": ["JavaScript", "SQL", "Java Basic", "Python Basic"]
         },
         {
           "title": "Frontend",
@@ -747,7 +747,7 @@
   "intro": {
     "label": "Professional profile summary",
     "title": "Hi, I am Yash Dilip Raykar.",
-    "text": "I am a final-year Computer Engineering student specializing in AI, a Web Developer Intern at Originedge Technology, and a frontend-focused MERN developer. I build responsive interfaces, REST API workflows, authentication-based apps, and database-driven projects, with 150+ C++ DSA problems solved and 15+ GitHub repositories.",
+    "text": "I am a final-year Computer Engineering student specializing in AI, a Web Developer Intern at Originedge Technology, and a frontend-focused MERN developer. I build responsive interfaces, REST API workflows, authentication-based apps, and database-driven projects, with 150+ DSA problems solved and 15+ GitHub repositories.",
     "actions": [
       {
         "label": "View Resume",
